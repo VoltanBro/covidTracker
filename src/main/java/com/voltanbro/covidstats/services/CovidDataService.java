@@ -53,5 +53,7 @@ public class CovidDataService {
             this.allStats = newStats;
     }
 
-
+    public List<LocationStats> getAllStats() {
+        return allStats;
+    }
 }
