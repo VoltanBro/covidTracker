@@ -13,23 +13,24 @@
 
 <body>
 <div class="container">
-    <p>List the current number of cases</p>
 
-    <div class="jumbotron">
-        <h1 class="display-4" th:text="${totalReportedCases}"></h1>
-        <p class="lead">Total cases reported as of today</p>
-        <hr class="my-4">
-        <p>
-            <span> cases reported previous day: </span>
-            <span th:text="${totalNewCases}"></span>
+<p>List the current number of cases</p>
 
-        </p>
+<div class="jumbotron">
+    <h1 class="display-4" th:text="${totalReportedCases}"></h1>
+    <p class="lead">Total cases reported as of today</p>
+    <hr class="my-4">
+    <p>
+        <span> cases reported previous day: </span>
+        <span th:text="${totalNewCases}"></span>
+
+    </p>
 
 
-    </div>
+</div>
 
     <table class="table">
-        <tr>
+        <tr >
             <th scope="col">State</th>
             <th scope="col">Country</th>
             <th scope="col">Total Cases reported</th>
@@ -44,7 +45,7 @@
 
         </tr>
 
-    </table>
+</table>
 </div>
 </body>
 
